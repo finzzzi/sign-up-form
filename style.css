@@ -50,3 +50,20 @@
   flex-direction: column;
   background-color: #f9fafb;
 }
+
+.form-intro {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.signup-form h2,
+.form-actions button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.signup-form label,
+.signup-form input,
+.form-actions p {
+  font-family: "Inter", sans-serif;
+}
