@@ -46,5 +46,7 @@
 
 .form-section {
   flex: 2;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
 }
