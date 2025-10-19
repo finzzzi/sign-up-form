@@ -21,6 +21,9 @@
 
 .hero-section {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: center/cover no-repeat url(images/background.jpg);
 }
 
@@ -43,6 +46,21 @@
   font-family: "Norse", serif;
   color: white;
   font-size: 5rem;
+}
+
+.background-credit {
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.background-credit a {
+  color: white;
+}
+
+.background-credit a:visited {
+  color: white;
 }
 
 h2,
@@ -108,7 +126,8 @@ input:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-input:invalid {
+#password:invalid,
+#confirm-password:invalid {
   border-color: red;
   outline: none;
 }
@@ -127,8 +146,17 @@ input:invalid {
   margin-bottom: 32px;
 }
 
+.btn-create-account:hover {
+  cursor: pointer;
+}
+
 .registered a {
   color: #596d48;
   text-decoration: none;
   font-weight: 600;
+}
+
+.registered a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
