@@ -101,6 +101,17 @@ p {
   border-radius: 4px;
 }
 
+input:focus {
+  border-color: blue;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input:invalid {
+  border-color: red;
+  outline: none;
+}
+
 .form-actions {
   padding: 20px 50px;
 }
