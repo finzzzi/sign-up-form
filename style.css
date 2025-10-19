@@ -144,10 +144,13 @@ input:focus {
   border-radius: 6px;
   padding: 16px 42px;
   margin-bottom: 32px;
+  transition-duration: 0.2s;
+  transition-property: transform;
 }
 
 .btn-create-account:hover {
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 .registered a {
