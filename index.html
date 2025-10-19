@@ -30,6 +30,7 @@
             this in your life to help you realize your deepset dreams. Sign up
             <em>now</em> to get started.
           </p>
+          <br />
           <p>You <em>know</em> you want to.</p>
         </div>
 
@@ -37,34 +38,54 @@
           <form action="">
             <h2>Let's do this!</h2>
 
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" required />
+            <div class="form-row">
+              <div class="input-group">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="first-name" required />
+              </div>
 
-            <label for="last-name">Last name</label>
-            <input type="text" id="last-name" name="last-name" />
+              <div class="input-group">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="last-name" />
+              </div>
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
+            <div class="form-row">
+              <div class="input-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required />
+              </div>
 
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required />
+              <div class="input-group">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+            </div>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required />
+            <div class="form-row">
+              <div class="input-group">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" required />
+              </div>
 
-            <label for="confirm-password">Confirm Password</label>
-            <input
-              type="password"
-              id="confirm-password"
-              name="confirm-password"
-              required
-            />
+              <div class="input-group">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-password"
+                  required
+                />
+              </div>
+            </div>
           </form>
         </div>
 
         <div class="form-actions">
-          <button>Create Account</button>
-          <p>Already have an account? <a href="/">Log in</a></p>
+          <button class="btn-create-account">Create Account</button>
+          <p class="registered">
+            Already have an account? <a href="/">Log in</a>
+          </p>
         </div>
       </div>
     </div>
